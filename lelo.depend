@@ -1,0 +1,246 @@
+# depslib dependency file v1.0
+1504190996 source:c:\users\administrador\desktop\nueva carpeta\lelo\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+
+1504191541 c:\users\administrador\desktop\nueva carpeta\lelo\dsa.h
+
+1504181300 c:\users\administrador\desktop\nueva carpeta\lelo\funcionesgraficas.h
+	<windows.h>
+
+1504191365 c:\users\administrador\desktop\nueva carpeta\lelo\proyecto.h
+
+1504481410 source:c:\users\franco\google drive\diputados\lelo\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+
+1504482256 c:\users\franco\google drive\diputados\lelo\dsa.h
+
+1504191361 c:\users\franco\google drive\diputados\lelo\funcionesgraficas.h
+	<windows.h>
+
+1504191361 c:\users\franco\google drive\diputados\lelo\proyecto.h
+
+1506610665 source:c:\users\administrador\desktop\diputados xdxd\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+	"Configuracion.h"
+
+1506601936 c:\users\administrador\desktop\diputados xdxd\dsa.h
+	"FuncionesGraficas.h"
+
+1504788034 c:\users\administrador\desktop\diputados xdxd\funcionesgraficas.h
+	<windows.h>
+
+1506611571 c:\users\administrador\desktop\diputados xdxd\proyecto.h
+
+1504912416 source:c:\users\w10\google drive\diputados xdxd\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+
+1504932306 c:\users\w10\google drive\diputados xdxd\dsa.h
+	"FuncionesGraficas.h"
+
+1504788033 c:\users\w10\google drive\diputados xdxd\funcionesgraficas.h
+	<windows.h>
+
+1504788033 c:\users\w10\google drive\diputados xdxd\proyecto.h
+
+1504912416 source:c:\users\franco\google drive\diputados xdxd\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+
+1505019893 c:\users\franco\google drive\diputados xdxd\dsa.h
+	"FuncionesGraficas.h"
+
+1504788033 c:\users\franco\google drive\diputados xdxd\funcionesgraficas.h
+	<windows.h>
+
+1504788033 c:\users\franco\google drive\diputados xdxd\proyecto.h
+
+1505079591 source:c:\users\franco\google drive\2º cuatrimestre tsp\diputados xdxd\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+	"Configuracion.h"
+
+1505078964 c:\users\franco\google drive\2º cuatrimestre tsp\diputados xdxd\dsa.h
+	"FuncionesGraficas.h"
+
+1504788033 c:\users\franco\google drive\2º cuatrimestre tsp\diputados xdxd\funcionesgraficas.h
+	<windows.h>
+
+1505079704 c:\users\franco\google drive\2º cuatrimestre tsp\diputados xdxd\proyecto.h
+
+1505075612 c:\users\franco\google drive\2º cuatrimestre tsp\diputados xdxd\configuracion.h
+
+1505085517 source:c:\users\w10\google drive\2º cuatrimestre tsp\diputados xdxd\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+	"Configuracion.h"
+
+1505163002 c:\users\w10\google drive\2º cuatrimestre tsp\diputados xdxd\dsa.h
+	"FuncionesGraficas.h"
+
+1504788033 c:\users\w10\google drive\2º cuatrimestre tsp\diputados xdxd\funcionesgraficas.h
+	<windows.h>
+
+1505163057 c:\users\w10\google drive\2º cuatrimestre tsp\diputados xdxd\proyecto.h
+
+1505075612 c:\users\w10\google drive\2º cuatrimestre tsp\diputados xdxd\configuracion.h
+
+1505868094 c:\users\administrador\desktop\diputados xdxd\configuracion.h
+
+1505085518 source:e:\nueva carpeta\diputados xdxd\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+	"Configuracion.h"
+
+1505393186 e:\nueva carpeta\diputados xdxd\dsa.h
+	"FuncionesGraficas.h"
+
+1504788034 e:\nueva carpeta\diputados xdxd\funcionesgraficas.h
+	<windows.h>
+
+1506306132 e:\nueva carpeta\diputados xdxd\proyecto.h
+
+1505868094 e:\nueva carpeta\diputados xdxd\configuracion.h
+
+1505085518 source:c:\users\w7\desktop\diputados xdxd\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+	"Configuracion.h"
+
+1505393186 c:\users\w7\desktop\diputados xdxd\dsa.h
+	"FuncionesGraficas.h"
+
+1504788034 c:\users\w7\desktop\diputados xdxd\funcionesgraficas.h
+	<windows.h>
+
+1505706380 c:\users\w7\desktop\diputados xdxd\proyecto.h
+
+1505075612 c:\users\w7\desktop\diputados xdxd\configuracion.h
+
+1507125192 source:e:\diputados 2.0\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+	"Sesiones.h"
+	"Configuracion.h"
+
+1507129386 e:\diputados 2.0\dsa.h
+	"FuncionesGraficas.h"
+
+1504788034 e:\diputados 2.0\funcionesgraficas.h
+	<windows.h>
+
+1507126708 e:\diputados 2.0\proyecto.h
+
+1505868094 e:\diputados 2.0\configuracion.h
+
+1507127960 e:\diputados 2.0\sesiones.h
+
+1510522357 source:c:\users\gasty\desktop\diputados 2.1\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+	"Sesiones.h"
+	"Configuracion.h"
+
+1507168446 c:\users\gasty\desktop\diputados 2.1\dsa.h
+	"FuncionesGraficas.h"
+
+1507168450 c:\users\gasty\desktop\diputados 2.1\funcionesgraficas.h
+	<windows.h>
+
+1510522179 c:\users\gasty\desktop\diputados 2.1\proyecto.h
+
+1510522357 c:\users\gasty\desktop\diputados 2.1\sesiones.h
+
+1510522657 c:\users\gasty\desktop\diputados 2.1\configuracion.h
+
+1507180071 source:c:\users\w10\desktop\diputados 2.1\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<windows.h>
+	"dsa.h"
+	"FuncionesGraficas.h"
+	"proyecto.h"
+	"Sesiones.h"
+	"Configuracion.h"
+
+1507182783 c:\users\w10\desktop\diputados 2.1\dsa.h
+	"FuncionesGraficas.h"
+
+1507152930 c:\users\w10\desktop\diputados 2.1\funcionesgraficas.h
+	<windows.h>
+
+1507180142 c:\users\w10\desktop\diputados 2.1\proyecto.h
+
+1507179477 c:\users\w10\desktop\diputados 2.1\sesiones.h
+
+1507171060 c:\users\w10\desktop\diputados 2.1\configuracion.h
+

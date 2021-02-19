@@ -1,0 +1,186 @@
+#ifndef DSA_H_INCLUDED
+#define DSA_H_INCLUDED
+#include "FuncionesGraficas.h"
+int verificacione (struct diputados *lelo){
+ FILE *p;
+
+ struct diputados reg;
+ int x;
+ p=fopen("diputados.dat","rb");
+ while (fread(&reg,sizeof(diputados),0,p)==1){
+  if(strcmp(lelo->codigo,reg.codigo)==0){
+    fclose(p);
+    x=1; /// ya usado
+    return x;
+  }
+
+ }
+ fclose(p);
+x=0; /// no usado
+    return x;
+}
+
+
+
+ void cargardiputado(struct diputados *lelo){
+bool verificacion;
+cout<<"Nombre: ";
+cin>>lelo->nombre;
+cout<<endl;
+cout<<"Apellido: ";
+cin>>lelo->apellido;
+cout<<endl;
+
+cout<<"Codigo: ";
+cin>>lelo->codigo;
+cout<<endl;
+verificacion=verificacione(*lelo);
+
+while(verificacion==1){
+
+verificacion=verificacione(*lelo);
+cout << "Ingreso no valido. Ingrese nuevamente: ";
+cin>>lelo->codigo;
+cout << endl;
+}
+
+cout<<"Inicio de Mandato: ";
+cin>>lelo->Ingreso;
+cout<<endl;
+while(lelo->Ingreso >= 2017){
+cout << "Ingreso no valido. Ingrese nuevamente: ";
+cin>>lelo->anio;
+cout << endl;
+}
+
+cout<<"Fin de Mandato: ";
+cin>>lelo->anio;
+cout<<endl;
+while(lelo->anio <= 2017){
+cout << "Ingreso no valido. Ingrese nuevamente: ";
+cin>>lelo->anio;
+cout << endl;
+}
+
+cout<<"Partido: ";
+cin>>lelo->partido;
+cout<<endl;
+while(lelo->partido <= 0 || lelo->partido > 10){
+cout << "Ingreso no valido. Ingrese nuevamente: ";
+cin>>lelo->partido;
+cout<<endl;
+}
+cout<<"Provincia: ";
+cin>>lelo->provincia;
+cout << endl;
+while(lelo->provincia <= 0 || lelo->provincia > 24 ){
+cout << "Ingreso no valido. Ingrese nuevamente: ";
+cin>>lelo->provincia;
+cout << endl;
+
+lelo->Estado=true;
+
+}
+cout<<"Diputado cargado con exito ! " << endl << endl;
+
+PlaySound(TEXT("Base de datos"), NULL, SND_SYNC); ///Introduce sonido
+
+system("pause");
+}
+
+void mostrardiputado(struct diputados esa) {
+cout << "Nombre y Apellido :"<< esa.nombre<<" "<<esa.apellido<<endl;
+cout << "Codigo "<< esa.codigo<<endl;
+cout << "Codigo de partido :"<< esa.partido<<endl;
+cout << "Codigo de Provincia :"<< esa.provincia<<endl;
+cout << "Inicio de Mandato :"<< esa.Ingreso<<endl;
+cout << "Fin de Mandato :"<< esa.anio<<endl<<endl;
+system("pause");
+}
+
+void listar()
+{
+FILE *part;
+struct diputados reg;
+part=fopen("diputados.dat","rb");
+if(part==NULL)
+{ cout<<"Error de archivo";
+PlaySound(TEXT("Error de Archivo"), NULL, SND_SYNC);
+exit(1);
+}
+while(fread(&reg, sizeof(struct diputados),1,part)==1)
+{
+cout<<"Codigo: ";
+cout<< reg.codigo<< endl;
+cout<<"Nombre y Apellido ";
+cout<<reg.nombre<<" "<< reg.apellido <<endl;
+cout<<"Fin mandato : ";
+cout<<reg.anio<<endl;
+cout<<"Partido : ";
+cout<<reg.partido<<endl;
+cout<<"Provincia ";
+cout<<reg.provincia<<endl;}
+fclose(part);
+system("pause");
+}
+void caso1 (){
+    FILE *p;
+struct diputados reg;
+    p=fopen("diputados.dat","ab");
+    cargardiputado(&reg);
+    fwrite(&reg,sizeof reg,1,p);
+    fclose(p);
+    fread(&reg,sizeof reg,1,p);
+    fclose(p);
+    ///mostrardiputado(reg);
+}
+
+int switchdiputado(){
+    int valor;
+    while (true){
+        system ("cls");
+        system("color 43");
+    recuadro(37, 10, 44, 13, cNEGRO, cAMARILLO);
+textcolor(cNEGRO, cAMARILLO);
+
+gotoxy(38,11);
+cout<<"               MENU DIPUTADOS"<<endl;
+gotoxy(38,12);
+cout<<"-------------------------------------------"<<endl;
+gotoxy(38,14);
+cout<<"1 -            NUEVO DIPUTADO"<<endl;
+gotoxy(38,16);
+cout<<"2 -      LISTAR TODOS LOS DIPUTADOS"<<endl;
+gotoxy(38,18);
+cout<<"3 -  LISTAR DIPUTADO POR CODIGO DE PARTIDO"<<endl;
+gotoxy(38,20);
+cout<<"-------------------------------------------"<<endl;
+gotoxy(38,22);
+cout<<"0 -         VOLVER AL MENU ANTERIOR"<<endl;
+
+
+recuadro(45,27, 25, 2, cNEGRO, cAMARILLO);
+textcolor(cNEGRO, cAMARILLO);
+gotoxy(47,28);
+cout << "Ingrese la opcion: ";
+gotoxy(67,28);
+cin>>valor;
+
+switch(valor){
+case 1 :
+    caso1();
+    break;
+case 2:
+listar();
+
+case 0:
+    return 0;
+    break ;
+}
+
+
+}}
+
+
+
+#endif // DSA_H_INCLUDED

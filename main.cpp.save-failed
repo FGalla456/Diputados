@@ -1,0 +1,74 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <cstdio>
+using namespace std;
+struct diputados{
+char codigo[5] ;
+char nombre[30];
+int partido;
+int provincia;
+int anio;
+char apellido[30];
+};
+#include "dsa.h"
+#include "FuncionesGraficas.h"
+#include "proyecto.h"
+int main()
+{
+int valor;
+while (true){
+system("cls");
+      Color(5);
+      //  system("color 34");
+
+recuadro(44, 10, 25, 17, cBLANCO, cVERDE);
+textcolor(cBLANCO, cVERDE);
+
+gotoxy(45,11);
+cout<<"     MENU PRINCIPAL"<<endl;
+gotoxy(45,12);
+cout<<"------------------------"<<endl;
+gotoxy(45,14);
+cout<<"1 -    DIPUTADOS"<<endl;
+gotoxy(45,16);
+cout<<"2 -    PROYECTOS"<<endl;
+gotoxy(45,18);
+cout<<"3 -    VOTACIONES"<<endl;
+gotoxy(45,20);
+cout<<"4 -    REPORTES"<<endl;
+gotoxy(45,22);
+cout<<"5 -    CONFIGURACION"<<endl;
+gotoxy(45,24);
+cout<<"------------------------"<<endl;
+gotoxy(45,26);
+cout<<"0 - SALIR DEL PROGRAMA"<<endl;
+
+recuadro(44,31, 25, 2, cBLANCO, cVERDE);
+textcolor(cBLANCO, cVERDE);
+gotoxy(45,32);
+cout << "Ingrese la opcion: ";
+gotoxy(65,32);
+cin>>(valor);
+switch (valor){
+case 1:
+    switchdiputado();
+
+break;
+case 2:
+ switchproyecto();
+break;
+case 3:
+
+break;
+case 4:
+
+break;
+case 5:
+
+break;
+case 0:
+return 0;
+break;
+}
+}}
